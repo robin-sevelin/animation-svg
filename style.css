@@ -3,12 +3,20 @@ body {
 }
 
 main {
-  width: 50%;
+  max-width: 500px;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.gear-wheel-container {
+  width: 75%;
+}
+
+.svg-container {
+  width: 75%;
 }
 
 #big-wheel-one,
