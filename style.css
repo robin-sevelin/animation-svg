@@ -1,0 +1,23 @@
+body {
+  background-color: antiquewhite;
+}
+
+main {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#big-wheel-one,
+#big-wheel-two,
+#big-wheel-three {
+  transform-origin: 33px 33px;
+}
+
+#small-wheel-one,
+#small-wheel-two {
+  transform-origin: 10px 10px;
+}
