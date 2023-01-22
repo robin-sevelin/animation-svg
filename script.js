@@ -46,7 +46,7 @@ gsap.fromTo(
   },
   {
     x: 0,
-    duration: 1,
+    duration: 2,
     opacity: 1,
   }
 );
@@ -55,11 +55,11 @@ gsap.fromTo(
   '#letter-v',
   {
     y: -100,
-    scale: 0,
+    scale: -5,
   },
   {
     y: 0,
-    duration: 1,
+    duration: 3,
     scale: 1,
   }
 );
@@ -72,6 +72,6 @@ gsap.fromTo(
   {
     x: 0,
     fill: 'red',
-    duration: 1,
+    duration: 3,
   }
 );
