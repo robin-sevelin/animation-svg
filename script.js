@@ -54,11 +54,9 @@ gsap.fromTo(
 gsap.fromTo(
   '#letter-v',
   {
-    y: -100,
     scale: -5,
   },
   {
-    y: 0,
     duration: 3,
     scale: 1,
   }
