@@ -3,6 +3,7 @@ gsap.to('#big-wheel-one', {
   duration: 10,
   repeat: -1,
   ease: 'none',
+  transformOrigin: 'center center',
 });
 
 gsap.to('#big-wheel-two', {
@@ -10,6 +11,7 @@ gsap.to('#big-wheel-two', {
   duration: 10,
   repeat: -1,
   ease: 'none',
+  transformOrigin: 'center center',
 });
 
 gsap.to('#big-wheel-three', {
@@ -17,42 +19,59 @@ gsap.to('#big-wheel-three', {
   duration: 10,
   repeat: -1,
   ease: 'none',
+  transformOrigin: 'center center',
 });
 
 gsap.to('#small-wheel-one', {
   rotation: 360,
   duration: 5,
   repeat: -1,
-  ease: 'none',
+  ease: 'power1',
+  transformOrigin: 'center center',
 });
 
 gsap.to('#small-wheel-two', {
   rotation: -360,
-  duration: 5,
+  duration: 3,
   repeat: -1,
-  ease: 'none',
+  ease: 'power3',
+  transformOrigin: 'center center',
 });
 
-gsap.to('#letter-s', {
-  y: -10,
-  duration: 1.5,
-  repeat: -1,
-  yoyo: 'true',
-  fill: 'purple',
-});
+gsap.fromTo(
+  '#letter-s',
+  {
+    x: -100,
+    opacity: 0,
+  },
+  {
+    x: 0,
+    duration: 1,
+    opacity: 1,
+  }
+);
 
-gsap.to('#letter-v', {
-  scale: 0.8,
-  duration: 1,
-  repeat: -1,
-  yoyo: 'true',
-  fill: 'red',
-});
+gsap.fromTo(
+  '#letter-v',
+  {
+    y: -100,
+    scale: 0,
+  },
+  {
+    y: 0,
+    duration: 1,
+    scale: 1,
+  }
+);
 
-gsap.to('#letter-g', {
-  scale: 1.2,
-  duration: 0.5,
-  repeat: -1,
-  yoyo: 'true',
-  fill: 'green',
-});
+gsap.fromTo(
+  '#letter-g',
+  {
+    x: 100,
+  },
+  {
+    x: 0,
+    fill: 'red',
+    duration: 1,
+  }
+);

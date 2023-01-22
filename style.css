@@ -16,20 +16,7 @@ main {
 }
 
 .svg-container {
-  width: 75%;
-}
-
-#big-wheel-one {
-  transform-origin: 29.9px 29.9px;
-}
-#big-wheel-two {
-  transform-origin: 29.95px 29.95px;
-}
-#big-wheel-three {
-  transform-origin: 29.9px 29.9px;
-}
-
-#small-wheel-one,
-#small-wheel-two {
-  transform-origin: 10px 10px;
+  border: 2px solid black;
+  width: 50%;
+  background-color: white;
 }
