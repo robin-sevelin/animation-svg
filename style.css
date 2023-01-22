@@ -19,10 +19,14 @@ main {
   width: 75%;
 }
 
-#big-wheel-one,
-#big-wheel-two,
+#big-wheel-one {
+  transform-origin: 29.9px 29.9px;
+}
+#big-wheel-two {
+  transform-origin: 29.95px 29.95px;
+}
 #big-wheel-three {
-  transform-origin: 33px 33px;
+  transform-origin: 29.9px 29.9px;
 }
 
 #small-wheel-one,
